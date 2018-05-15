@@ -1,0 +1,24 @@
+{
+    "name": "bravist/cheshiben",
+    "type": "libaray",
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "程会勇",
+            "email": "chenghuiyong1987@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bravist\\CheShiBen\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
