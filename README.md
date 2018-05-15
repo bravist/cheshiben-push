@@ -11,7 +11,7 @@
 
 执行
 ```
-composer require bravist/cnvex
+composer require bravist/cheshiben
 ```
 
 使用 Composer 的 autoload 引入
@@ -21,5 +21,5 @@ require_once('vendor/autoload.php');
 
 ### 手动引入
 ``` php
-require_once('/path/to/cnvex/api.php');
+require_once('/path/to/cheshiben/src/Push.php');
 ```
